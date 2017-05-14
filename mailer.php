@@ -1,6 +1,6 @@
 <?php
 
-    // Only process POST reqeusts..
+    // Only process POST reqeusts...
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
         $fname = strip_tags(trim($_POST["firstName"]));

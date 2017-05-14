@@ -1,4 +1,5 @@
 <?php
+     //This file receives the posts from AJAX and processes them
 
     // Only process POST reqeusts...
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
